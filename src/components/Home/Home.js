@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
+import Cart from '../Cart/Cart';
 
 const Home = () => {
     const [activities, setActivities] = useState([]);
+    const [cart, setCart] = useState([]);
+    console.log(cart)
 
     useEffect(() => {
         fetch('data.json')
@@ -10,7 +13,9 @@ const Home = () => {
         .then(data => setActivities(data))
     }, [])
 
-    console.log(activities);
+    const handleAddToList = activity =>{
+        setCart([...cart,activity]);
+    }
 
     return (
         <div className='grid grid-cols-4 gap-3'>
@@ -19,12 +24,12 @@ const Home = () => {
                 <p className='font-semibold text-xl mt-5'>Select today’s exercise</p>
                 <div className='grid grid-cols-3 gap-4 mt-5'>
                     {
-                        activities.map(activity => <Activity activity={activity}></Activity>)
+                        activities.map(activity => <Activity activity={activity} key={activity.id} handleAddToList={handleAddToList}></Activity>)
                     }
                 </div>
             </div>
-            <div>
-                
+            <div className='bg-white p-8'>
+                <Cart cart={cart}></Cart>
             </div>
         </div>
     );

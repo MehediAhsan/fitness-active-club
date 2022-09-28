@@ -1,0 +1,38 @@
+[
+    {
+      "id": "6334808ad759491c1ee44c22",
+      "name": "Dumbbell",
+      "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "time": 214
+    },
+    {
+      "id": "6334808a5b23a4adb7f3333f",
+      "name": "Pushups",
+      "image": "https://images.unsplash.com/photo-1566351557863-467d204a9f8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "time": 83
+    },
+    {
+      "id": "6334808acf7004eaae51bb94",
+      "name": "Squats",
+      "image": "https://images.unsplash.com/photo-1556817411-31ae72fa3ea0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "time": 396
+    },
+    {
+      "id": "6334808a5dfa4f2c56dd88f1",
+      "name": "Burpees",
+      "image": "https://images.unsplash.com/photo-1640142826074-d81e089dfec8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",
+      "time": 73
+    },
+    {
+      "id": "6334808ae5f39235fe95e4e3",
+      "name": "Pullups",
+      "image": "https://images.unsplash.com/photo-1598575468023-85b93d887c3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=932&q=80",
+      "time": 235
+    },
+    {
+      "id": "6334808a1b1fab409301744b",
+      "name": "Deadlift",
+      "image": "https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "time": 90
+    }
+]

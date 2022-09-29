@@ -9,7 +9,7 @@ const Activity = ({activity, handleAddToList}) => {
             <h2 className="card-title">{name}</h2>
             <p><span className='font-semibold'>Time required:</span> {time}s</p>
             <div className="card-actions justify-end">
-            <button onClick={() => handleAddToList(activity)} className="bg-info py-2 text-white my-2 w-full rounded">Add to list</button>
+            <button onClick={() => handleAddToList(activity)} className="bg-accent py-2 text-white my-2 w-full rounded">Add to list</button>
             </div>
         </div>
         </div>

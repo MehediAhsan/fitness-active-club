@@ -52,7 +52,7 @@ const Cart = ({cart}) => {
                     <h1 className='font-semibold text-xl mb-4'>Add A Break</h1>
                     <div className='bg-gray-100 rounded px-2 py-3 flex justify-evenly gap-2'>
                     {
-                        breakTime.map(bt => <button onClick={() => handleBreakTime(bt)} className="bg-info text-white p-2 rounded-full">{bt}s</button>)
+                        breakTime.map(bt => <button onClick={() => handleBreakTime(bt)} className="bg-accent text-white p-2 rounded-full">{bt}s</button>)
                     }
                     </div>
                 </div>
@@ -68,7 +68,7 @@ const Cart = ({cart}) => {
                     </div>
                 </div>
                 <div>
-                    <button onClick={handleActivityCompleted} className='bg-info py-2 text-white w-full my-10 rounded'>Activity Completed</button>
+                    <button onClick={handleActivityCompleted} className='bg-accent py-2 text-white w-full my-10 rounded'>Activity Completed</button>
                     <ToastContainer />
                 </div>
         </div>

@@ -3,36 +3,63 @@
       "id": "6334808ad759491c1ee44c22",
       "name": "Dumbbell",
       "image": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "age": "25-35",
       "time": 40
     },
     {
       "id": "6334808a5b23a4adb7f3333f",
       "name": "Pushups",
       "image": "https://images.unsplash.com/photo-1566351557863-467d204a9f8a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "age": "20-40",
       "time": 50
     },
     {
       "id": "6334808acf7004eaae51bb94",
       "name": "Squats",
       "image": "https://images.unsplash.com/photo-1556817411-31ae72fa3ea0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "age": "20-30",
       "time": 30
     },
     {
       "id": "6334808a5dfa4f2c56dd88f1",
-      "name": "Burpees",
-      "image": "https://images.unsplash.com/photo-1640142826074-d81e089dfec8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",
+      "name": "Dips",
+      "image": "https://images.unsplash.com/flagged/photo-1597786811375-8924ee6a6e69?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80",
+      "age": "20-25",
       "time": 70
     },
     {
       "id": "6334808ae5f39235fe95e4e3",
       "name": "Pullups",
       "image": "https://images.unsplash.com/photo-1598575468023-85b93d887c3f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=932&q=80",
+      "age": "25-35",
       "time": 30
     },
     {
       "id": "6334808a1b1fab409301744b",
       "name": "Deadlift",
       "image": "https://images.unsplash.com/photo-1581009137042-c552e485697a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "age": "25-40",
       "time": 80
+    },
+    {
+      "id": "633577637289f69cc01f7440",
+      "name": "Shrugs",
+      "image": "https://images.unsplash.com/photo-1519505907962-0a6cb0167c73?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "age": "20-35",
+      "time": 40
+    },
+    {
+      "id": "6335776353ad898466dd3a89",
+      "name": "Presses",
+      "image": "https://images.unsplash.com/photo-1508215885820-4585e56135c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "age": "20-25",
+      "time": 50
+    },
+    {
+      "id": "633577633af0a69d1b5adbb0",
+      "name": "Planks",
+      "image": "https://images.unsplash.com/photo-1562419988-0dbd7b2fa545?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "age": "25-40",
+      "time": 40
     }
 ]

@@ -27,7 +27,7 @@ const Home = () => {
                     }
                 </div>
             </div>
-            <div className='bg-white p-8'>
+            <div className='bg-white'>
                 <Cart cart={cart}></Cart>
             </div>
         </div>

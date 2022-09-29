@@ -58,7 +58,7 @@ const Cart = ({cart}) => {
                     <h1 className='font-semibold text-xl mb-4'>Add A Break</h1>
                     <div className='bg-gray-100 rounded px-2 py-3 flex justify-evenly gap-2'>
                     {
-                        breakTime.map(bt => <button key={bt} onClick={() => handleBreakTime(bt)} className={`${bt===click? 'bg-accent text-white': null} p-2 rounded-full font-semibold`}>{bt}s</button>)
+                        breakTime.map(bt => <button key={bt} onClick={() => handleBreakTime(bt)} className={`${bt===click? 'bg-accent text-white': 'text-black bg-white'} p-2 rounded-full font-semibold`}>{bt}s</button>)
                     }
                     </div>
                 </div>

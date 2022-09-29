@@ -30,7 +30,7 @@ const Cart = ({cart}) => {
     },[restTime])
 
     const handleActivityCompleted = () => {
-        toast("Congratulation for completed your activity");
+        toast("Congratulation for completed your activity.");
     }
 
     return (

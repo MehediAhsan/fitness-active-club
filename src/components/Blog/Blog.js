@@ -16,7 +16,7 @@ const Blog = () => {
                 </div>
                 <div className="p-10">
                     <h3 className="text-2xl font-bold mb-3">Uses of useEffect </h3>
-                    <p className="text-gray-500 text-xl"> Validating an input while it's receiving characters is another great application for useEffect.We can use useEffect to filter an array "on the fly" by typing letters into an input element.We can use the useEffect hook to trigger an animation on a shopping cart as a side effect of adding a new product to it. We want to trigger a state update due to an updated fetch() call. We are sending the fetched data to a child component, and whenever that data is changed, the child component re-process it.  </p>
+                    <p className="text-gray-500 text-xl"> Validating an input while it's receiving characters is another great application for useEffect.We can use useEffect to filter an array "on the fly" by typing letters into an input element.We can use the useEffect hook to trigger an animation on a shopping cart as a side effect of adding a new product to it.When we want to perform an action once, especially when the app loads or mounts, we can use useEffect to do it. We want to trigger a state update due to an updated fetch() call. We are sending the fetched data to a child component, and whenever that data is changed, the child component re-process it.  </p>
                 </div>
             </div>
         </div>

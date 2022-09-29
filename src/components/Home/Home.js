@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
 import Activity from '../Activity/Activity';
 import Cart from '../Cart/Cart';
 
@@ -19,7 +21,7 @@ const Home = () => {
     return (
         <div className='grid grid-cols-4 gap-3'>
             <div className='col-span-3 m-20'>
-                <h1 className='font-bold text-info text-2xl'>UTRA-Active-club</h1>
+                <h1 className='font-bold text-info text-2xl'><FontAwesomeIcon icon={faDumbbell} /> FITNESS-CLUB</h1>
                 <p className='font-semibold text-xl mt-5'>Select today’s exercise</p>
                 <div className='grid grid-cols-3 gap-4 mt-5'>
                     {

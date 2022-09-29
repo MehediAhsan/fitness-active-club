@@ -1,14 +1,26 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Cart = ({cart}) => {
     const [restTime, setRestTime] = useState(0);
-    console.log(restTime);
+    
     let time = 0;
     for(const activity of cart){
         time = time + activity.time;
     }
 
     const breakTime = [10,20,30,40,50];
+
+    const handleBreakTime = (bt) =>{
+        setRestTime(bt);
+        localStorage.setItem('time',bt);
+    }
+
+    useEffect(() => {
+        const getTime = localStorage.getItem('time');
+        if(getTime){
+        setRestTime(getTime)
+        }
+    },[restTime])
 
     return (
         <div>
@@ -24,7 +36,7 @@ const Cart = ({cart}) => {
                 <div>
                     <h1 className='font-semibold text-xl'>Add A Break</h1>
                     {
-                        breakTime.map(bt => <button onClick={() => setRestTime(bt)} className="bg-info text-white p-2 rounded-full mr-1">{bt}s</button>)
+                        breakTime.map(bt => <button onClick={() => handleBreakTime(bt)} className="bg-info text-white p-2 rounded-full mr-1">{bt}s</button>)
                     }
                 </div>
                 <div>

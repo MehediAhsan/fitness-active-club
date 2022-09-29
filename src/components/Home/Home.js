@@ -5,7 +5,6 @@ import Cart from '../Cart/Cart';
 const Home = () => {
     const [activities, setActivities] = useState([]);
     const [cart, setCart] = useState([]);
-    console.log(cart)
 
     useEffect(() => {
         fetch('data.json')
